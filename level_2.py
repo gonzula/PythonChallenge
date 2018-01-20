@@ -2,7 +2,7 @@
 
 from collections import Counter
 
-with open('ocr.html') as fin:
+with open('ocr.txt') as fin:
     text = fin.read().replace('\n', '')
 
 histogram = Counter(text)

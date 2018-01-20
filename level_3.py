@@ -2,7 +2,7 @@
 
 import re
 
-with open('equality.html') as fin:
+with open('equality.txt') as fin:
     text = fin.read()
 
 patt = r'(?<![A-Z])[A-Z]{3}([a-z])[A-Z]{3}(?![A-Z])'
