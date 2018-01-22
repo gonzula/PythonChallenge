@@ -11,3 +11,4 @@ dst = string.ascii_lowercase[k:] + string.ascii_lowercase[:k]
 
 table = text.maketrans(src, dst)
 print(text.translate(table))
+print('map'.translate(table))
