@@ -100,3 +100,6 @@ ENV/
 
 # vim swap
 *.swp
+
+#macOS DS_Store
+.DS_Store
