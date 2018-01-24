@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# url: http://www.pythonchallenge.com/pc/def/linkedlist.html
+
 import requests
 import re
 
@@ -18,3 +20,5 @@ while True:
             continue
         break
     p = match.group(1)
+
+# next: http://www.pythonchallenge.com/pc/def/peak.html

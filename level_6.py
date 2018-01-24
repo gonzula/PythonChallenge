@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# url: http://www.pythonchallenge.com/pc/def/channel.html
+
 from zipfile import ZipFile
 import re
 
@@ -25,3 +27,5 @@ while True:
     p = match.group(1)
 
 print(''.join(comments))
+
+# next: http://www.pythonchallenge.com/pc/def/oxygen.html

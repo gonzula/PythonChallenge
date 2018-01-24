@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# url: http://www.pythonchallenge.com/pc/def/oxygen.html
+
 import PIL.Image
 import requests
 import io
@@ -35,3 +37,5 @@ next_level = ''.join(chr(x) for x in numbers)
 
 text = text.replace(list_str, next_level)
 print(text)
+
+# next: http://www.pythonchallenge.com/pc/def/integrity.html
