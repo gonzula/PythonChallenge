@@ -29,5 +29,5 @@ def foo(n):
 
 print(len(foo(30)))
 
-# next: http://huge:file@www.pythonchallenge.com/pc/return/5808.html
+# next: http://www.pythonchallenge.com/pc/return/5808.html
 
